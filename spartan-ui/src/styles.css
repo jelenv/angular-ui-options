@@ -8,19 +8,20 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', Roboto, 'Noto Sans',
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
+  background-color: hsl(var(--background));
 }
 
 :root {
-  --background: 0 0% 100%;
+  --background: 42 10% 95%;
   --foreground: 224 71.4% 4.1%;
   --muted: 220 14.3% 95.9%;
   --muted-foreground: 220 8.9% 46.1%;
   --popover: 0 0% 100%;
   --popover-foreground: 224 71.4% 4.1%;
-  --card: 0 0% 100%;
+  --card: 42 10% 97%;
   --card-foreground: 224 71.4% 4.1%;
   --border: 220 13% 91%;
-  --input: 220 13% 91%;
+  --input: 220 13% 65%;
   --primary: 220.9 39.3% 11%;
   --primary-foreground: 210 20% 98%;
   --secondary: 220 14.3% 95.9%;
