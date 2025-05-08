@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ChevronRight, LucideAngularModule, MoonIcon, SunIcon } from 'lucide-angular';
+import { LucideAngularModule, MoonIcon, SunIcon } from 'lucide-angular';
 import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
 import { InputsComponent } from './components/inputs/inputs.component';
 import { ThemeService } from './services/theme.service';
@@ -16,7 +16,6 @@ export class AppComponent {
   title = 'spartan-ui';
   readonly SunIcon = SunIcon;
   readonly MoonIcon = MoonIcon;
-  readonly ChevronRightIcon = ChevronRight;
 
   themeService = inject(ThemeService);
 
