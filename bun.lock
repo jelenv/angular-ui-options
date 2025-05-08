@@ -16,10 +16,12 @@
         "@angular/platform-browser": "^19.2.0",
         "@angular/platform-browser-dynamic": "^19.2.0",
         "@angular/router": "^19.2.0",
+        "@ng-icons/core": "^29.10.0",
         "@spartan-ng/brain": "0.0.1-alpha.455",
         "@tailwindcss/postcss": "^4.1.5",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
+        "lucide-angular": "^0.508.0",
         "postcss": "^8.5.3",
         "rxjs": "~7.8.0",
         "tailwindcss": "^4.1.5",
@@ -515,6 +517,8 @@
     "@napi-rs/nice-win32-x64-msvc": ["@napi-rs/nice-win32-x64-msvc@1.0.1", "", { "os": "win32", "cpu": "x64" }, "sha512-JlF+uDcatt3St2ntBG8H02F1mM45i5SF9W+bIKiReVE6wiy3o16oBP/yxt+RZ+N6LbCImJXJ6bXNO2kn9AXicg=="],
 
     "@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@0.2.4", "", { "dependencies": { "@emnapi/core": "^1.1.0", "@emnapi/runtime": "^1.1.0", "@tybys/wasm-util": "^0.9.0" } }, "sha512-9zESzOO5aDByvhIAsOy9TbpZ0Ur2AJbUI7UT73kcUTS2mxAMHOBaa1st/jAymNoCtvrit99kkzT1FZuXVcgfIQ=="],
+
+    "@ng-icons/core": ["@ng-icons/core@29.10.0", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": ">=18.0.0", "@angular/core": ">=18.0.0", "rxjs": "^6.5.3 || ^7.4.0" } }, "sha512-PR6SO00yvFhwDhh37BWhtAgRfzxuXpJQBsAQ44Pg3gjc83fOAwOtMSXizYwtN0uUFIkAYZHZCEuV7Sb8eosK+w=="],
 
     "@ngtools/webpack": ["@ngtools/webpack@19.2.11", "", { "peerDependencies": { "@angular/compiler-cli": "^19.0.0 || ^19.2.0-next.0", "typescript": ">=5.5 <5.9", "webpack": "^5.54.0" } }, "sha512-rOtSuw5mqyCIrsxZQBqv5flQqVjKMsOtIqKIgWs/UKdoiGgDckeJMTdOjbXvkF3Iy3XpG9bNiLJoSwbENpyxsw=="],
 
@@ -1603,6 +1607,8 @@
     "long-timeout": ["long-timeout@0.1.1", "", {}, "sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w=="],
 
     "lru-cache": ["lru-cache@6.0.0", "", { "dependencies": { "yallist": "^4.0.0" } }, "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="],
+
+    "lucide-angular": ["lucide-angular@0.508.0", "", { "dependencies": { "tslib": "^2.3.0" }, "peerDependencies": { "@angular/common": "13.x - 19.x", "@angular/core": "13.x - 19.x" } }, "sha512-JB2B7ILK/lNjld6zfMPb2zRcUHwMPCC5RLnMBBsgoH/BrGUWJyuj3rhfMDsOo9P+FcvBVDrIQ4l5O9YRfZ690Q=="],
 
     "luxon": ["luxon@3.6.1", "", {}, "sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ=="],
 

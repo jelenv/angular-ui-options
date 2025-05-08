@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import {
   HlmCardContentDirective,
-  HlmCardDescriptionDirective,
   HlmCardDirective,
-  HlmCardFooterDirective,
   HlmCardHeaderDirective,
   HlmCardTitleDirective,
 } from '@spartan-ng/ui-card-helm';
@@ -18,9 +16,7 @@ import { HlmLabelDirective } from '@spartan-ng/ui-label-helm';
     HlmInputDirective,
     HlmLabelDirective,
     HlmCardContentDirective,
-    HlmCardDescriptionDirective,
     HlmCardDirective,
-    HlmCardFooterDirective,
     HlmCardHeaderDirective,
     HlmCardTitleDirective,
   ],
