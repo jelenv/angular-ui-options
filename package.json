@@ -1,0 +1,11 @@
+{
+  "name": "angular-ui-options",
+  "private": true,
+  "workspaces": [
+    "spartan-ui"
+  ],
+  "scripts": {
+    "start:spartan": "cd spartan-ui && bun run start",
+    "build:spartan": "cd spartan-ui && bun run build"
+  }
+}

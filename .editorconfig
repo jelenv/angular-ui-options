@@ -1,0 +1,34 @@
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+remove_trailing_whitespace = true
+end_of_line = lf
+indent_style = space
+indent_size = 2
+
+[*.js]
+quote_type = single
+max_line_length = 110
+
+[*.ts]
+quote_type = single
+max_line_length = 110
+
+[*.css]
+quote_type = single
+max_line_length = 100
+
+[*.scss]
+quote_type = single
+max_line_length = 100
+
+[*.html]
+max_line_length = 120
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+indent_size = 4
