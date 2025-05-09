@@ -7,16 +7,16 @@ Examples of Angular UI component libraries. The goal is to show you by example:
 
 ## Showcased Libraries
 - [PrimeNG](https://primeng.org/installation)
-  - styling: css + tailwind
+  - styling: css, tailwind (optional)
   - icons: primeicons (default)
 - [spartan/ui](https://www.spartan.ng/documentation/installation)
-  - shadcn/ui inpired = you own the components
-  - styling: css + tailwind
+  - shadcn/ui inpired
+  - styling: css, tailwind (required)
   - icons: @ng-icons/lucide (default), lucide-angular
 
 # System dependencies
 - Bun (https://bun.sh)
-- Angular CLI (https://angular.dev/tools/cli/setup-local): `bun i -g @angular/cli`
+- Angular CLI (https://angular.dev/tools/cli/setup-local): `bun add -g @angular/cli`
 
 # Run a local server
 ```sh

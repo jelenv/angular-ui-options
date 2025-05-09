@@ -21,7 +21,7 @@ bun add primeng @primeng/themes
    - Tailwind is not required, but it works nicely with PrimeNG and is recommended.
 ```sh
 # install tailwind
-bun install tailwindcss @tailwindcss/postcss postcss
+bun add tailwindcss @tailwindcss/postcss postcss
 # configure postcss
 echo '{
   "plugins": {

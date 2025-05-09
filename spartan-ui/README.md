@@ -16,7 +16,7 @@ ng new spartan-ui --style css --ssr false --minimal --strict --package-manager b
 ```sh
 cd spartan-ui
 # install tailwind
-bun install tailwindcss @tailwindcss/postcss postcss
+bun add tailwindcss @tailwindcss/postcss postcss
 # configure postcss
 echo '{
   "plugins": {
@@ -30,8 +30,8 @@ sed -i '1i\@import "tailwindcss";' ./src/styles.css
 3. Add Spartan UI
 ```sh
 # install spartan-ui and angular cdk
-bun i -D @spartan-ng/cli
-bun i @angular/cdk
+bun add -d @spartan-ng/cli
+bun add @angular/cdk
 # import spartan css preset
 sed -i '/@import "tailwindcss";/a\@import "@spartan-ng/brain/hlm-tailwind-preset.css";' ./src/styles.css
 # add css variables, options used: spartan-ui, orange, 0.5, ., .
@@ -43,7 +43,7 @@ ng g @spartan-ng/cli:ui input
 4. Additional packages
 ```sh
 # Angular icons (Spartan default): https://ng-icons.github.io/ng-icons/#/getting-started
-bun i @ng-icons/core @ng-icons/lucide
+bun add @ng-icons/core @ng-icons/lucide
 # Lucide icons (to test): https://lucide.dev/guide/packages/lucide-angular
-bun i lucide-angular
+bun add lucide-angular
 ```
