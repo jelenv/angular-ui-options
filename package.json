@@ -2,7 +2,8 @@
   "name": "angular-ui-options",
   "private": true,
   "workspaces": [
-    "spartan-ui"
+    "spartan-ui",
+    "prime-ng"
   ],
   "scripts": {
     "start:spartan": "cd spartan-ui && bun run start",
