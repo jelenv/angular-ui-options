@@ -1,15 +1,29 @@
-<section hlmCard>
+<section hlmCard class="m-4">
   <div hlmCardHeader>
     <h3 hlmCardTitle>Inputs</h3>
-    <hr>
+    <brn-separator hlmSeparator class="my-1" />
   </div>
-  <div hlmCardContent>
-    <label hlmLabel>Email
-      <input class="w-60" hlmInput type="email" placeholder="Email input" />
-    </label>
+  <div hlmCardContent class="flex items-center gap-5 flex-wrap">
+    <hlm-form-field>
+      <label hlmLabel>Email
+        <input hlmInput type="email" placeholder="Email input with validators" [formControl]="email" class="w-60" />
+      </label>
+      <hlm-hint>This is your email address.</hlm-hint>
+      <hlm-error>
+        @if (email.hasError('required')) {
+          Email is required.
+        }
+        @else if (email.hasError('email')) {
+          Email is invalid.
+        }
+      </hlm-error>
+    </hlm-form-field>
 
-    <input hlmInput placeholder="Input without label" class="mb-5" />
+    <input hlmInput placeholder="Input without label" type="text" [(ngModel)]="filter" />
 
-    <input class="w-80" hlmInput type="file" />
+    <hlm-form-field>
+      <input hlmInput type="file" />
+      <hlm-hint>File input</hlm-hint>
+    </hlm-form-field>
   </div>
 </section>

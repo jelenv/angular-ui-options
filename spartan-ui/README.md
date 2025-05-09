@@ -39,3 +39,11 @@ ng g @spartan-ng/cli:ui-theme
 # optional: add input component
 ng g @spartan-ng/cli:ui input
 ```
+
+4. Additional packages
+```sh
+# ng-icons (Spartan default): https://ng-icons.github.io/ng-icons/#/getting-started
+bun i @ng-icons/core @ng-icons/lucide
+# Lucide icons (to test): https://lucide.dev/guide/packages/lucide-angular
+bun i lucide-angular
+```
