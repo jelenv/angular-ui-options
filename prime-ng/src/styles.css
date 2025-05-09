@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+html {
+  /* root font size auto-scales the sizing of PrimeNG components */
+  font-size: 14px;
+
+  /* PrimeNG does not set any font, whatever you set here, will be used by it */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', Roboto, 'Noto Sans',
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}

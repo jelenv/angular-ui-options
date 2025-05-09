@@ -6,6 +6,9 @@ Examples of Angular UI component libraries. The goal is to show you by example:
 - Compare UI component libraries
 
 ## Showcased Libraries
+- [PrimeNG](https://primeng.org/installation)
+  - styling: css + tailwind
+  - icons: primeicons (default)
 - [spartan/ui](https://www.spartan.ng/documentation/installation)
   - shadcn/ui inpired = you own the components
   - styling: css + tailwind

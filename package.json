@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "start:spartan": "cd spartan-ui && bun run start",
-    "build:spartan": "cd spartan-ui && bun run build"
+    "build:spartan": "cd spartan-ui && bun run build",
+    "start:prime": "cd prime-ng && bun run start",
+    "build:prime": "cd prime-ng && bun run build"
   }
 }
