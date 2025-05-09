@@ -9,7 +9,7 @@ Examples of Angular UI component libraries. The goal is to show you by example:
 - [spartan/ui](https://www.spartan.ng/documentation/installation)
   - shadcn/ui inpired = you own the components
   - styling: css + tailwind
-  - icons: @ng-icons/lucide
+  - icons: @ng-icons/lucide (default), lucide-angular
 
 # System dependencies
 - Bun (https://bun.sh)
